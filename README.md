@@ -1,12 +1,16 @@
 Security : Basic Auth 
 
+Technologies : SAP HANA , SAP CLOUD FOUNDRY , SPRING BOOT, JAVA 1.8 
+
+*************************************************************************************************************************
+
 username : nokia
 password : Nokia@1234
 
 Main Project IN MASTER BRANCH.
 
 
-
+***************************************************************************************************************************
 
 
 create URL : https://demonokia.cfapps.us10.hana.ondemand.com/nokia/create  
@@ -35,6 +39,8 @@ Response Body :
 }
 
 
+*************************************************************************************************************************
+
 update URL : https://demonokia.cfapps.us10.hana.ondemand.com/nokia/update
 method type : put
 Request Body :
@@ -61,6 +67,10 @@ Response Body :
     "department": "IT"
 }
 
+
+***************************************************************************************************************
+
+
 read URL : https://demonokia.cfapps.us10.hana.ondemand.com/nokia/get/user/{id}
 Api Url : https://demonokia.cfapps.us10.hana.ondemand.com/nokia/get/user/10
 method type : get
@@ -79,8 +89,9 @@ Response Body :
     "department": "IT"
 }
 
+**************************************************************************************************************************
 
-read URL : https://demonokia.cfapps.us10.hana.ondemand.com/nokia/delete/{id}
+delete URL : https://demonokia.cfapps.us10.hana.ondemand.com/nokia/delete/{id}
 Api Url : https://demonokia.cfapps.us10.hana.ondemand.com/nokia/delete/10
 method type : delete
 
