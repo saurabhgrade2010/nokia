@@ -1,3 +1,14 @@
+Security : Basic Auth 
+
+username : nokia
+password : Nokia@1234
+
+
+
+
+
+
+
 create URL : https://demonokia.cfapps.us10.hana.ondemand.com/nokia/create  
 method : post
 Request Body : 
